@@ -1,9 +1,6 @@
-from __future__ import annotations
-
-
 class Animal:
 
-    alive: list[Animal] = []
+    alive: list["Animal"] = []
 
     def __init__(self,
                  name: str,
