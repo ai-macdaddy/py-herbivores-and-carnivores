@@ -1,6 +1,6 @@
 class Animal:
 
-    alive = []
+    alive: list = []
 
     def __init__(self,
                  name: str,
