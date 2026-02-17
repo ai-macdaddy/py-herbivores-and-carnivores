@@ -3,7 +3,6 @@ from __future__ import annotations
 
 class Animal:
 
-
     alive: list[Animal] = []
 
     def __init__(self,
@@ -36,4 +35,3 @@ class Carnivore(Animal):
             animal.health -= 50
             if animal.health <= 0:
                 Animal.alive.remove(animal)
-
